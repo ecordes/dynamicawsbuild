@@ -1,2 +1,2 @@
 # dynamicawsbuild
-Deploy scripts for dynamic runtime to aws and only listen to changes here. test
+Deploy scripts for dynamic runtime to aws and only listen to changes here.
