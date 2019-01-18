@@ -1,2 +1,2 @@
 #!/bin/bash
-~/bin/startdn
+~/bin/startdn > /dev/null 2>&1 
