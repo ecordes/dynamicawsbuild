@@ -9,10 +9,6 @@ permissions:
     group: ubuntu
     mode: 4755
 hooks:
-  AfterInstall:
-   - location: ./scripts/after_install.sh
-     timeout: 30
-     runas: root
   ApplicationStart:
    - location: ./scripts/start_server.sh
      timeout: 300
