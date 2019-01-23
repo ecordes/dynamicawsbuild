@@ -11,6 +11,6 @@ do
     echo "Got $STATUS Server not running yet."
   fi
 
-  sleep 10
+  sleep 1
 done
 
