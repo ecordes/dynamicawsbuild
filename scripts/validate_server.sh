@@ -4,7 +4,6 @@ while true
 do
   STATUS=$(curl -s -o /dev/null -w '%{http_code}' http://localhost:7070/health/info | head -n 1 | grep 200)
  
-  sleep 20
   if [ $STATUS -eq 200 ]; then
     echo "DynamicRuntime Server is running."
     break
